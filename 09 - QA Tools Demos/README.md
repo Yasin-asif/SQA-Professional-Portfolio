@@ -1,67 +1,68 @@
-# 🛠️ QA Tools Demos
+# 🧰 QA Tools Demo
 
-<div align="center">
+This section demonstrates hands-on experience with industry-standard QA tools used in real-world testing.
 
-![Tools](https://img.shields.io/badge/Tools-Automation%20Suite-blue?style=flat)
-![Examples](https://img.shields.io/badge/Examples-Practical%20Demos-green?style=flat)
-![Skills](https://img.shields.io/badge/Skills-Technical%20Proficiency-orange?style=flat)
+Each folder contains either:
+- Screenshots
+- Source code
+- Test results
+- Sample test scripts
 
-</div>
+---
 
-## Overview
+## 📊 Tools Demonstrated
 
-This folder contains practical demonstrations of various QA tools and frameworks, showcasing my technical proficiency and hands-on experience. Each demo includes sample code, configuration files, and documentation to illustrate proper setup and usage of essential quality assurance tools.
+| Tool | Use Case | Demo Artifact |
+|------|----------|---------------|
+| JIRA | Bug tracking & test case management | [Bug-report-example.md](./JIRA-Demo/bug-report-example.md) |
+| Postman | API testing & automation | [ecommerce-apis.postman_collection.json](./Postman-Collections/ecommerce-apis.postman_collection.json) |
+| PyTest | Unit & integration testing in Python | [test_login.py](./PyTest-Demo/test_login.py) |
+| Selenium | UI automation (login scenario) | [login_automation.py](./Selenium-Demo/login_automation.py) |
+| Git | Version control operations | [commit-history.md](./Git-Demo/commit-history.md) |
+| JMeter | Performance/load testing | [login_stress_test.jmx](./JMeter-Demo/login_stress_test.jmx) |
 
-## Contents
+---
 
-*Coming soon - Tool demonstrations and implementation examples*
+## 🎯 Tool Categories
 
-## Tools & Technologies Demonstrated
+### 🔍 Manual Testing Tools
+- **JIRA** - Defect tracking and test case management
+- **TestRail** - Test case organization and execution
+- **Zephyr** - Test execution and reporting
 
-### Automation Frameworks
+### 🤖 Automation Tools
 - **Selenium WebDriver** - Web UI automation
-- **PyTest** - Test organization and execution
+- **PyTest** - Python testing framework
 - **Robot Framework** - Keyword-driven testing
-- **Cypress** - Modern web testing
-- **Appium** - Mobile application testing
 
-### Performance Testing
+### 🌐 API Testing Tools
+- **Postman** - API testing and collection management
+- **Newman** - Command-line API testing
+- **REST Assured** - Java-based API testing
+
+### ⚡ Performance Testing Tools
 - **JMeter** - Load and performance testing
 - **Locust** - Python-based load testing
 - **Gatling** - Scala-based performance testing
 
-### API Testing
-- **Postman/Newman** - API testing and automation
-- **REST Assured** - Java-based API testing
-- **Karate DSL** - API test automation
+### 🔧 Development & CI/CD Tools
+- **Git** - Version control and collaboration
+- **Jenkins** - Continuous integration
+- **GitHub Actions** - Automated testing workflows
 
-### CI/CD Integration
-- **Jenkins** - Pipeline configuration
-- **GitHub Actions** - CI workflow examples
-- **Azure DevOps** - Build and release pipelines
+---
 
-### Monitoring & Reporting
-- **Grafana/Prometheus** - Test metrics visualization
-- **Allure** - Enhanced test reporting
-- **ELK Stack** - Log analysis for testing
+## 🚀 Getting Started
 
-## Implementation Examples
+Each tool demo includes:
+1. **Setup Instructions** - How to configure the tool
+2. **Sample Code/Configuration** - Working examples
+3. **Best Practices** - Recommended approaches
+4. **Integration Examples** - How tools work together
 
-Each tool demo typically includes:
+---
 
-1. **Setup Guide** - Installation and configuration steps
-2. **Sample Project** - Working example implementation
-3. **Best Practices** - Recommended patterns and approaches
-4. **Common Pitfalls** - Issues to avoid
-5. **Integration Examples** - How to connect with other tools
-
-## Benefits Demonstrated
-
-- **Technical Proficiency** - Hands-on experience with industry tools
-- **Practical Knowledge** - Real-world implementation skills
-- **Tool Selection** - Understanding of appropriate tool selection
-- **Configuration Skills** - Proper setup and optimization
-- **Integration Expertise** - Combining tools into effective workflows
+> These demos reflect practical usage and setup of tools across QA workflows.
 
 <div align="center">
   <i>Part of <a href="https://github.com/Yasin-asif/SQA-Professional-Portfolio">Muhammad Yasin's SQA Professional Portfolio</a></i>
