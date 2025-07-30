@@ -74,28 +74,27 @@
 
 ## 🔍 Featured Projects
 
-> *Coming soon! Projects will showcase real-world testing scenarios and automation implementations.*
-
 <div align="center">
   <table>
     <tr>
       <td align="center">
-        <h3>🔄 E-commerce Testing Suite</h3>
-        <p>Comprehensive test cases and automation scripts for online shopping platforms</p>
+        <h3>🤖 AI Requirements Conflict Detector</h3>
+        <p>SQA plan for an AI-powered tool to detect and resolve conflicts in software requirements</p>
+        <a href="05 - Projects/AI-Requirements-Conflict-Detector-SQA-Plan.md">View Project</a>
       </td>
       <td align="center">
-        <h3>📱 Mobile App Testing</h3>
-        <p>Test strategies for cross-platform mobile applications</p>
+        <h3>🔄 E-commerce Testing Suite</h3>
+        <p>Comprehensive test cases and automation scripts for online shopping platforms</p>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <h3>🌐 API Testing Framework</h3>
-        <p>PyTest-based framework for robust API testing</p>
+        <h3>📱 Mobile App Testing</h3>
+        <p>Test strategies for cross-platform mobile applications</p>
       </td>
       <td align="center">
-        <h3>🤖 AI-Driven Test Generation</h3>
-        <p>Exploring AI tools to enhance test coverage</p>
+        <h3>🌐 API Testing Framework</h3>
+        <p>PyTest-based framework for robust API testing</p>
       </td>
     </tr>
   </table>
