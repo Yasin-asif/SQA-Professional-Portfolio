@@ -14,7 +14,20 @@ This folder contains professional bug reports demonstrating my ability to docume
 
 ## Contents
 
-*Coming soon - Sample bug reports from various projects*
+| Bug ID  | Title                                                      | Module               | Severity | Priority |
+|---------|------------------------------------------------------------|----------------------|----------|----------|
+| [AI-001](./AI-001-Incorrect-Conflict-Detection.md)  | Incorrect conflict detection                               | AI Conflict Detector | Medium   | P2       |
+| [AI-002](./AI-002-System-Hang-API-Failure.md)  | System hang on API failure                                 | AI Conflict Detector | Critical | P1       |
+| [LR-001](./LR-001-Login-Blank-Password.md)  | Blank password accepted during login                       | Login Form           | High     | P1       |
+| [EC-001](./EC-001-Discount-Code-Issue.md)  | Discount not applied during checkout                       | E-commerce Checkout  | Medium   | P2       |
+
+---
+
+📌 These reports demonstrate:
+- Complex AI testing (non-determinism, edge cases, failover)
+- Classical UI validation
+- E-commerce workflows and form handling
+- Structured, professional reporting practices
 
 ## Bug Report Structure
 
