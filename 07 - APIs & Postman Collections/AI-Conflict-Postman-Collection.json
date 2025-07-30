@@ -1,0 +1,154 @@
+{
+  "info": {
+    "name": "AI Requirements Conflict Detector API",
+    "description": "Comprehensive API testing collection for the AI Requirements Conflict Detector",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://mockserver.aiconflictdetector.com/api",
+      "type": "string"
+    },
+    {
+      "key": "api_key",
+      "value": "your_api_key_here",
+      "type": "string"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{api_key}}",
+        "type": "string"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": ["{{base_url}}"],
+          "path": ["health"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Detect Conflict - No Conflict",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"requirement_1\": \"System shall authenticate users\",\n  \"requirement_2\": \"System shall log user activities\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/detect-conflict",
+          "host": ["{{base_url}}"],
+          "path": ["detect-conflict"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Detect Conflict - Conflict Detected",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"requirement_1\": \"System shall log all failed login attempts\",\n  \"requirement_2\": \"System must never store login failures\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/detect-conflict",
+          "host": ["{{base_url}}"],
+          "path": ["detect-conflict"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Detect Conflict - Invalid Input",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"requirement_1\": \"\",\n  \"requirement_2\": \"System shall authenticate users\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/detect-conflict",
+          "host": ["{{base_url}}"],
+          "path": ["detect-conflict"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Rewrite Requirements",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"requirement_1\": \"System shall log all failed login attempts\",\n  \"requirement_2\": \"System must never store login failures\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/rewrite",
+          "host": ["{{base_url}}"],
+          "path": ["rewrite"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Validate Input",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"requirement\": \"System shall respond within 2 seconds\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/validate-input",
+          "host": ["{{base_url}}"],
+          "path": ["validate-input"]
+        }
+      },
+      "response": []
+    }
+  ]
+} 

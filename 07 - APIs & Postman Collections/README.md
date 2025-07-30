@@ -14,7 +14,15 @@ This folder contains Postman collections, API test documentation, and automation
 
 ## Contents
 
-*Coming soon - API testing projects and Postman collections*
+| File | Description | Type |
+|------|-------------|------|
+| [AI-Conflict-API-Spec.md](./AI-Conflict-API-Spec.md) | Complete API specification with endpoints and examples | Documentation |
+| [AI-Conflict-Postman-Collection.json](./AI-Conflict-Postman-Collection.json) | Importable Postman collection for testing | Collection |
+| [Sample-API-Test-Summary.md](./Sample-API-Test-Summary.md) | Test execution results and validation summary | Report |
+
+---
+
+🔧 **Ready to Import:** The Postman collection can be directly imported into Postman for immediate testing.
 
 ## API Testing Approach
 
