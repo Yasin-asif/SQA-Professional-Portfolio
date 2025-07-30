@@ -90,8 +90,8 @@ Shifa Tameer-e-Millat University, Islamabad
 
 Feel free to reach out if you'd like to discuss QA best practices, collaboration opportunities, or employment:
 
-- **Email:** [contact@muhammadyasin.com](mailto:contact@muhammadyasin.com)
-- **LinkedIn:** [linkedin.com/in/muhammad-yasin-asif](https://www.linkedin.com/in/muhammad-yasin-asif)
+- **Email:** [muhammad yasinasifofficial@gmail.com](mailto:muhammad yasinasifofficial@gmail.com)
+- **LinkedIn:** [linkedin.com/in/yasin-asif-qa](https://www.linkedin.com/in/yasin-asif-qa)
 - **GitHub:** [github.com/Yasin-asif](https://github.com/Yasin-asif)
 
 ## 📄 License
