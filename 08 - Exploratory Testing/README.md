@@ -1,61 +1,57 @@
-# 🔎 Exploratory Testing
+# 🔍 Exploratory Testing Overview
 
-<div align="center">
+This section showcases my approach to **Exploratory Testing** — combining intuition, experience, and rapid feedback to uncover high-risk issues not easily detected through scripted testing.
 
-![Approach](https://img.shields.io/badge/Approach-Structured%20Exploration-blue?style=flat)
-![Documentation](https://img.shields.io/badge/Documentation-Session%20Based-green?style=flat)
-![Coverage](https://img.shields.io/badge/Coverage-Risk%20Oriented-orange?style=flat)
+## 🎯 Objectives:
+- Identify hidden usability, edge case, or logic flaws
+- Discover gaps missed in formal test cases
+- Simulate real-world user behavior
+- Apply heuristics for structured yet flexible exploration
 
-</div>
+---
 
-## Overview
+## 🧠 Methodologies Used:
+- **Session-Based Testing**: Time-boxed exploratory sessions with charters
+- **Heuristics Frameworks**:
+  - `SFDIPOT`: Structure, Function, Data, Interfaces, Platform, Operations, Time
+  - `HICCUPPS`: History, Image, Claims, Comparable products, User expectations, Product, Purpose, Statutes
+  - `CRUD`: Create, Read, Update, Delete operations
+  - `FCC CUTS VIDS`: Function, Complexity, Configuration, Usability, Time, Variables, Interoperability, Data, Security
 
-This folder contains session-based exploratory testing charters, notes, and findings demonstrating my ability to conduct effective unscripted testing. Exploratory testing combines learning, test design, and test execution into a structured yet flexible approach to discover issues that might be missed by scripted tests.
+---
 
-## Contents
+## 📝 Key Artifacts:
 
-*Coming soon - Exploratory testing sessions and findings from various projects*
+| File | Purpose |
+|------|---------|
+| [AI-Conflict-Detector-Exploration.md](./AI-Conflict-Detector-Exploration.md) | Exploratory testing of non-deterministic AI output |
+| [E-Commerce-Checkout-Exploration.md](./E-Commerce-Checkout-Exploration.md) | Usability & edge case testing on checkout |
+| [Session-Based-Test-Charters.md](./Session-Based-Test-Charters.md) | Time-boxed charters and observations |
+| [Heuristics-Checklist.md](./Heuristics-Checklist.md) | Mnemonic frameworks and testing approaches |
 
-## Exploratory Testing Approach
+---
 
-I follow a session-based testing approach with:
+## 🔍 Exploration Techniques:
 
-1. **Charter-Based Sessions** - Focused missions with clear objectives
-2. **Time-Boxed Execution** - Typically 60-90 minute sessions
-3. **Structured Documentation** - Consistent reporting format
-4. **Risk-Based Prioritization** - Focus on high-risk areas first
-5. **Heuristic-Based Testing** - Using proven test models and techniques
+### Tours
+- **Feature Tour**: Systematic exploration of each feature
+- **Scenario Tour**: Testing based on user stories
+- **Risk Tour**: Focus on high-risk areas
+- **Complexity Tour**: Testing complex functionality
 
-## Session Structure
+### Personas
+- **Power User**: Advanced functionality testing
+- **Novice User**: Usability and guidance testing
+- **Malicious User**: Security and edge case testing
 
-Each exploratory testing session includes:
+### Heuristic-Based Testing
+- **Error Guessing**: Experience-based bug hunting
+- **Boundary Testing**: Edge of input domains
+- **State Transition**: Testing based on system states
 
-- **Charter** - The mission and focus of the testing session
-- **Areas** - Parts of the application to be explored
-- **Duration** - Time spent on the session
-- **Tester** - Person conducting the session
-- **Notes** - Observations during testing
-- **Issues** - Problems found
-- **Risks** - Potential issues or concerns identified
-- **Test Coverage** - What was tested and what wasn't
-- **Questions** - Areas needing clarification
-- **Next Actions** - Recommendations for future testing
+---
 
-## Techniques Demonstrated
-
-- **Tours** - Methodical exploration using patterns (feature tour, scenario tour, etc.)
-- **Personas** - Testing from different user perspectives
-- **Heuristics** - Using mnemonics like CRUD, SFDIPOT, FCC CUTS VIDS
-- **Mind Mapping** - Visual representation of test ideas and coverage
-- **Bug Hunting Patterns** - Focused techniques to uncover specific bug types
-
-## Tools Used
-
-- Exploratory testing notebooks
-- Mind mapping software
-- Session management tools (Session Tester, Rapid Reporter)
-- Screen recording software
-- Defect tracking integration
+> Exploratory testing uncovers bugs that "don't follow the script" — just like real users.
 
 <div align="center">
   <i>Part of <a href="https://github.com/Yasin-asif/SQA-Professional-Portfolio">Muhammad Yasin's SQA Professional Portfolio</a></i>
