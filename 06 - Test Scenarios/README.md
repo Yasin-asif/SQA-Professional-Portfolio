@@ -14,7 +14,15 @@ This folder contains well-structured test scenarios demonstrating my ability to 
 
 ## Contents
 
-*Coming soon - Test scenarios for various projects and applications*
+| ID     | Title                                           | Priority  |
+|--------|--------------------------------------------------|-----------|
+| [TS-001](./TS-001-Detect-Logical-Conflict.md) | Detect conflict between contradictory statements | High      |
+| [TS-002](./TS-002-API-Downtime-Handling.md) | Handle AI API downtime gracefully                | Critical  |
+| [TS-003](./TS-003-Rewrite-Conflicts.md) | Rewriting conflicting requirements               | Medium    |
+| [TS-004](./TS-004-Empty-Input-Validation.md) | Validate empty input handling                    | High      |
+| [TS-005](./TS-005-Large-Input-Boundary-Test.md) | Handle boundary-length inputs                    | Medium    |
+
+🧠 These scenarios ensure the system handles both functional and non-functional QA concerns effectively.
 
 ## Scenario Structure
 
