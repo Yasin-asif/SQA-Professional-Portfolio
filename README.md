@@ -44,8 +44,9 @@ Shifa Tameer-e-Millat University, Islamabad
 ## 📚 Portfolio Contents
 
 - [**01 - Test Cases**](./01%20-%20Test%20Cases) - Comprehensive test cases using modern techniques
-  - [AI Requirements Conflict Detector Test Cases](./01%20-%20Test%20Cases/AI_Conflict_Detector_TestCases.md) - Black-box & white-box test cases
+  - [AI Requirements Conflict Detector Test Cases](./01%20-%20Test%20Cases/Ai_Requirements_Conflict_Detector/AI_Conflict_Detector_TestCases.md) - Black-box & white-box test cases
 - [**02 - Test Plans**](./02%20-%20Test%20Plans) - Detailed test plans following industry standards
+  - [AI Requirements Conflict Detector Test Plan](./02%20-%20Test%20Plans/Ai_Requirements_Conflict_Detector/AI_Conflict_Detector_TestPlan.md) - IEEE 829 compliant test plan
 - [**03 - Bug Reports**](./03%20-%20Bug%20Reports) - Well-documented bug reports with severity ratings
 - [**04 - Resume & Cover Letter**](./04%20-%20Resume%20%26%20Cover%20Letter) - Professional resume and tailored cover letters
 - [**05 - Projects**](./05%20-%20Projects) - End-to-end QA projects demonstrating comprehensive skills
